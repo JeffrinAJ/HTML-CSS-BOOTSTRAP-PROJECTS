@@ -1,0 +1,145 @@
+.top{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    background: #000000;
+    color: white;
+}
+.top2{
+    text-align: right;
+}
+.top2 small{
+    margin-right: 100px;
+}
+.top1 small{
+    margin-left: 100PX;
+}
+.row2 li{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    float: right;
+    margin-left: 50px;
+    padding: 10px;    
+}
+
+.row2 li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.row1{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    padding-left: 10px;
+}
+
+.he{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    color: rgb(211, 42, 0);
+    text-align: center;
+}
+
+body{
+    background:white ;
+}
+
+.row input{
+    height: 60px;
+    width: 450px;
+    background: transparent;
+    border-radius: 40%;
+}
+
+.hee{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    background: black;
+    color: white;
+}
+
+.heq{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-size: larger
+}
+
+.heee{
+    background: rgb(0, 0, 0) !important;
+    color: #ffffff;
+    width: 200px !important;
+    border-radius: 1% !important;
+    height: 30px !important;
+}
+
+.qwe li b{
+    list-style-type: none ;
+    font-size: xx-large;
+}
+.con p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+footer{background-color:#000000;}
+
+.footercontainer{
+   width: 100%;
+   padding: 70px 30px 20px;
+}
+
+.icons{
+   display: flex;
+   justify-content: center;
+
+}
+.icons a{
+   text-decoration: none;
+   padding: 15px;
+   background-color:white;
+   margin:20px;
+   border-radius: 50%;   
+}
+
+.icons a i{
+   font-size: 30px;
+   opacity: 1.5;
+}
+.footernav ul li a{
+   color: rgb(255, 255, 255);
+   margin-right: 15px;
+   text-decoration: none;
+   font-size: larger;
+
+
+}
+.footernav ul{
+   display: flex;
+   justify-content: center;
+}
+.footerbottom{
+   padding: 25px;
+   text-align: center;
+}
+.footerbottom p{color: beige;letter-spacing: 2px;
+}
+.designer{
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 400;
+   margin: 5px 5px;
+}
+
+.footernav ul li{
+    margin-right: 15px;
+}
